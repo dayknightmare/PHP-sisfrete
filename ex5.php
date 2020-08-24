@@ -3,7 +3,7 @@
     function mutiplicar($num){
         $result = 1;
 
-        for ($i = 1; $i <= $num; $i++) { 
+        for ($i = $num; $i >= 1; $i--) { 
             $result *= $i;    
         }
 
