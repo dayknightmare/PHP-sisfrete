@@ -10,9 +10,9 @@
         }
     }
 
-    echo isValid("(111) 333-9999") . "\n";
-    echo isValid("(111)333-9999") . "\n";
-    echo isValid("111) 333-9999") . "\n";
-    echo isValid("(111) 3339999") . "\n";
-    echo isValid("(111 333-9999") . "\n";
-    echo isValid("(111)333-9999") . "\n";
+    var_dump(isValid("(111) 333-9999")) . "\n";
+    var_dump(isValid("(111)333-9999")) . "\n";
+    var_dump(isValid("111) 333-9999")) . "\n";
+    var_dump(isValid("(111) 3339999")) . "\n";
+    var_dump(isValid("(111 333-9999")) . "\n";
+    var_dump(isValid("(111)333-9999")) . "\n";
